@@ -1,0 +1,31 @@
+img.d-inline-block.align-text-top {
+    width: auto;
+    height: 45px;
+    border-radius: 7px;
+}
+/*
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+     color: white;
+    font-weight: 500;
+}
+
+
+ul.navbar-nav.m-auto.me-auto.mb-2.mb-lg-0 {
+    column-gap: 10px;
+}
+nav.navbar.navbar-expand-lg.navbar.navbar-dark.bg-primary.float-center {
+     overflow: hidden;
+    background-color: #333;
+   position: fixed;
+     top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+ .second{
+  margin-top: 150px;
+} */
+.mouse{
+  border: 0.5px solid lightslategrey;
+  padding: 10px;
+}

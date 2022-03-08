@@ -1,0 +1,19 @@
+img.d-block.w-100.h-500 {
+    width: 100%;
+    height: 500px;
+}
+#carouselExampleIndicators > div.carousel-inner > div:nth-child(n) > img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+div#carouselExampleIndicators {
+    margin-top: 70px;
+}
+.container.banner {
+  margin-top: 140px;
+}
+
+

@@ -1,0 +1,14 @@
+body > app-root > app-about > div > div > div:nth-child(2) > img{
+    width: 300px;
+}
+.me{
+    box-shadow: 34px -28px 0px -1px rgba(12,110,253,1);
+-webkit-box-shadow: 34px -28px 0px -1px rgba(12,110,253,1);
+-moz-box-shadow: 34px -28px 0px -1px rgba(12,110,253,1);
+}
+img.me.align-middle {
+    border: 6px solid white;
+}
+.row.d-flex.justify-content-around {
+    margin-top: 130px;
+}
