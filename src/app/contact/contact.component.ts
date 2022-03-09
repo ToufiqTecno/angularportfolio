@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ContactComponent implements OnInit {
 
   constructor() {
-    // console.warn("consthfhfgructor")
+    console.warn("consthfhfgructor")
    }
 
   ngOnInit(): void {
