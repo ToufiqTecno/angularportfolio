@@ -58,7 +58,7 @@ export class AppComponent {
     'mufeez',
     'Ibrahim',
   ];
-  
+
   employeeDetails = [
     {
       empid: 2201,
@@ -84,6 +84,26 @@ export class AppComponent {
       email: 'aasif@tss.in',
       phone: 999999999,
     },
-
   ];
+
+  // <!--Form Get value -->
+
+  getValues(val: any) {
+    console.log(val);
+  }
+
+  // <!--End Form Get value -->
+
+  // Components life Cycle
+  componentsLifeCycle = [
+    'ngOnChanges()',
+    'ngOnInit()',
+    'ngDoCheck()',
+    'ngAfterContentInit()',
+    'ngAfterContentChecked()',
+    'ngAfterViewInit()',
+    'ngAfterViewChecked()',
+    'ngOnDestroy()',
+  ];
+  // End Components life Cycle
 }

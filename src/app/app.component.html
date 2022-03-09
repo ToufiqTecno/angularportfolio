@@ -153,12 +153,11 @@
   <!--Switch Case -->
   <div class="p">Loop Statements </div>
   <div class="row">
-    <div class="col-2 h6 m-3 w-10 text-secondary text-center" *ngFor="let item of employee" >{{item}} TSS</div>
-
+    <div class="col-2 h6 m-3 w-10 text-secondary text-center" *ngFor="let item of employee">{{item}} TSS</div>
 
     <div class="p">Loop Statements using Objects </div>
     <div class="row d-flex justify-content-around m-3">
-      <div class="col-2 h6 m-1  text-secondary text-left" *ngFor="let items of employeeDetails" >
+      <div class="col-2 h6 m-1  text-secondary text-left" *ngFor="let items of employeeDetails">
         <div class="p">employee-id :{{items.empid}}</div>
         <div class="p">employee-name : {{items.name}}</div>
         <div class="p">employee-email : {{items.email}}</div>
@@ -168,9 +167,61 @@
 
   </div>
   <hr>
-</div>
-<!-- END Switch Case  -->
 
+  <!-- END Switch Case  -->
+
+
+
+
+  <!--Form Get value -->
+  <div class="h4">5. Simple Form Get value</div>
+  <div class="p m-2">Checkout in console </div>
+  <div class="p m-4">First import a FormsModule in app.module.tc </div>
+
+  <div class="row">
+
+    <form #simpleForm="ngForm" (ngSubmit)="getValues(simpleForm.value)">
+
+      <div class="row d-flex  justify-content-around align-center">
+        <div class="col-3">
+          <input type="text" ngModel name="firstName" class="form-control" placeholder="First name">
+        </div>
+        <div class="col-3">
+          <input type="text" ngModel class="form-control" name="lastName" placeholder="Last name">
+        </div>
+        <div class="col-3">
+          <input type="text" ngModel class="form-control" name="age" placeholder="Age">
+        </div>
+        <div class="col-3">
+          <input type="text" ngModel class="form-control" name="email" placeholder="Email">
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-3">
+          <button class=" btn btn-primary m-5  align-center">Get User Values</button>
+        </div>
+      </div>
+
+    </form>
+
+
+  </div>
+  <!-- END Form Get value  -->
+  <hr>
+
+  <!--Components life Cycle -->
+  <div class="h4">6.Components life Cycle</div>
+  <div class="p">8 life Cycle Hooks </div>
+  <div class="row">
+    <div class="col-2 h6 m-3 w-10 text-secondary text-left" *ngFor="let item of componentsLifeCycle">{{item}}</div>
+
+
+
+  </div>
+  <hr>
+
+  <!-- Components life Cycle  -->
 
 <br>
 <br>
