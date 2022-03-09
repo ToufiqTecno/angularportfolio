@@ -150,8 +150,6 @@
 
 
 
-
-
   <!--Switch Case -->
   <div class="p">Loop Statements </div>
   <div class="row">
@@ -160,11 +158,11 @@
 
     <div class="p">Loop Statements using Objects </div>
     <div class="row d-flex justify-content-around m-3">
-      <div class="col-2 h6 m-1  text-secondary text-left" *ngFor="let item of employeeDetails" >
-        <div class="p">employee-id :{{item.empid}}</div>
-        <div class="p">employee-name : {{item.name}}</div>
-        <div class="p">employee-email : {{item.email}}</div>
-        <div class="p">employee-phone :{{item.phone}}</div>
+      <div class="col-2 h6 m-1  text-secondary text-left" *ngFor="let items of employeeDetails" >
+        <div class="p">employee-id :{{items.empid}}</div>
+        <div class="p">employee-name : {{items.name}}</div>
+        <div class="p">employee-email : {{items.email}}</div>
+        <div class="p">employee-phone :{{items.phone}}</div>
       </div>
     </div>
 
